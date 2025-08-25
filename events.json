@@ -4,55 +4,35 @@
     "start": "2025-08-30T15:00",
     "location": "290011",
     "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "RedBoys vs HC Berchem",
-    "start": "2025-08-30T17:30",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "HC Réiden vs Mersch75 Hommes",
-    "start": "2025-08-31T14:00",
-    "location": "290102",
-    "color": "#757171",
-    "description": ""
-  },
-  {
-    "title": "HC Standard vs Mersch75 Hommes",
-    "start": "2025-08-31T16:00",
-    "location": "290102",
-    "color": "#757171",
-    "description": ""
+    "description": "Am Dribbel Käerjeng",
+    "link": "https://sbo.lu/spielbericht/12345",
+    "image": "https://example.com/bilder/spiel1.jpg"
   },
   {
     "title": "HB Bieles vs Mersch75 Femmes",
-    "start": "2025-08-31T16:40",
-    "location": "290102",
+    "start": "2025-09-06T16:00",
+    "location": "290101",
     "color": "#757171",
-    "description": ""
+    "description": "Sporthalle Bieles",
+    "link": "https://sbo.lu/spielbericht/23456",
+    "image": "https://example.com/bilder/spiel2.jpg"
   },
   {
-    "title": "CHEV Diekrech vs Mersch75 Femmes",
-    "start": "2025-08-31T18:00",
-    "location": "290102",
-    "color": "#757171",
-    "description": ""
+    "title": "Mersch75 Hommes vs Red Boys Differdange",
+    "start": "2025-09-13T17:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch",
+    "link": "https://sbo.lu/spielbericht/34567",
+    "image": "https://example.com/bilder/spiel3.jpg"
   },
   {
-    "title": "CHEV Diekrech vs Mersch75 Hommes",
-    "start": "2025-08-31T19:20",
-    "location": "290102",
-    "color": "#757171",
-    "description": ""
-  },
-  {
-    "title": "Spill a Spaass vs fir Kanner vu 9-12 Joer",
-    "start": "2025-09-01T14:00",
-    "location": "290101/290102",
-    "color": "#F2DCDB",
-    "description": "vu 14:00 bis 17:00"
+    "title": "Mersch75 Femmes vs HB Dudelange",
+    "start": "2026-05-18T18:00",
+    "location": "290212",
+    "color": "#F9CB9C",
+    "description": "Centre Omnisports Mersch",
+    "link": "https://sbo.lu/spielbericht/98765",
+    "image": "https://example.com/bilder/spiel4.jpg"
   }
 ]
