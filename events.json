@@ -1,38 +1,54 @@
-[
-  {
-    "title": "HB Käerjeng vs HB Dudelange",
-    "start": "2025-08-30T15:00",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng",
-    "link": "https://sbo.lu/spielbericht/12345",
-    "image": "https://example.com/bilder/spiel1.jpg"
-  },
-  {
-    "title": "HB Bieles vs Mersch75 Femmes",
-    "start": "2025-09-06T16:00",
-    "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles",
-    "link": "https://sbo.lu/spielbericht/23456",
-    "image": "https://example.com/bilder/spiel2.jpg"
-  },
-  {
-    "title": "Mersch75 Hommes vs Red Boys Differdange",
-    "start": "2025-09-13T17:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch",
-    "link": "https://sbo.lu/spielbericht/34567",
-    "image": "https://example.com/bilder/spiel3.jpg"
-  },
-  {
-    "title": "Mersch75 Femmes vs HB Dudelange",
-    "start": "2026-05-18T18:00",
-    "location": "290212",
-    "color": "#F9CB9C",
-    "description": "Centre Omnisports Mersch",
-    "link": "https://sbo.lu/spielbericht/98765",
-    "image": "https://example.com/bilder/spiel4.jpg"
-  }
-]
+document.addEventListener('DOMContentLoaded', function () {
+  var calendarEl = document.getElementById('calendar');
+
+  var calendar = new FullCalendar.Calendar(calendarEl, {
+    initialView: 'listYear',
+    headerToolbar: {
+      left: 'prev,next today',
+      center: 'title',
+      right: 'listYear,listMonth,listWeek'
+    },
+    locale: 'de',
+    firstDay: 1,
+    events: 'events.json',
+    validRange: {
+      start: '2025-08-01',
+      end: '2026-07-31'
+    },
+    listDayFormat: { day: '2-digit', month: '2-digit', year: '2-digit' },
+    eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false },
+
+    eventClick: function (info) {
+      if (info.event.extendedProps.link) {
+        window.open(info.event.extendedProps.link, '_blank');
+      } else {
+        alert(
+          info.event.title + '\n' +
+          (info.event.extendedProps.description || '') + '\n' +
+          'Hallen-Code: ' + (info.event.extendedProps.location || 'keine Angabe') + '\n' +
+          'Beginn: ' + info.event.start.toLocaleString()
+        );
+      }
+    },
+
+    eventDidMount: function (info) {
+      let tooltipContent = info.event.title;
+      if (info.event.extendedProps.description) {
+        tooltipContent += '\n' + info.event.extendedProps.description;
+      }
+      if (info.event.extendedProps.image) {
+        tooltipContent += '\n\n(Bild vorhanden – Klick für Spielbericht)';
+      }
+      if (!('ontouchstart' in window)) {
+        new bootstrap.Tooltip(info.el, {
+          title: tooltipContent,
+          placement: 'top',
+          trigger: 'hover',
+          container: 'body'
+        });
+      }
+    }
+  });
+
+  calendar.render();
+});
