@@ -1,261 +1,413 @@
 [
   {
-    "title": "HB Käerjeng vs HB Dudelange",
+    "title": "HB Käerjeng vs HB Dudelange (FLH-Events)",
     "start": "2025-08-30T15:00",
     "location": "290011",
     "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
+    "description": "Am Dribbel Käerjeng - FLH-Events Femmes"
   },
   {
-    "title": "Mersch75 Femmes vs HB Bieles",
-    "start": "2025-09-06T16:00",
-    "location": "290212",
+    "title": "RedBoys vs HC Berchem (FLH-Events)",
+    "start": "2025-08-30T17:30", 
+    "location": "290011",
+    "color": "#F1C232",
+    "description": "Am Dribbel Käerjeng - FLH-Events Hommes"
+  },
+  {
+    "title": "HC Réiden vs Mersch75 (50-Joer Turnéier)",
+    "start": "2025-08-31T14:00",
+    "location": "290102",
     "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
+    "description": "50-Joer Turnéier - Hommes"
   },
   {
-    "title": "Red Boys Differdange vs HB Käerjeng",
-    "start": "2025-09-13T17:00",
+    "title": "HC Standard vs Mersch75 (50-Joer Turnéier)",
+    "start": "2025-08-31T16:00",
+    "location": "290102", 
+    "color": "#9FC5E8",
+    "description": "50-Joer Turnéier - Hommes"
+  },
+  {
+    "title": "HB Bieles vs Mersch75 (50-Joer Turnéier)",
+    "start": "2025-08-31T16:40",
+    "location": "290102",
+    "color": "#9FC5E8", 
+    "description": "50-Joer Turnéier - Femmes"
+  },
+  {
+    "title": "CHEV Diekrech vs Mersch75 (50-Joer Turnéier)",
+    "start": "2025-08-31T18:00",
+    "location": "290102",
+    "color": "#9FC5E8",
+    "description": "50-Joer Turnéier - Femmes"
+  },
+  {
+    "title": "CHEV Diekrech vs Mersch75 (50-Joer Turnéier)",
+    "start": "2025-08-31T19:20",
+    "location": "290102",
+    "color": "#9FC5E8",
+    "description": "50-Joer Turnéier - Hommes"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass",
+    "start": "2025-09-01T14:00",
+    "location": "290101/290102",
+    "color": "#FFE599",
+    "description": "fir Kanner vu 9-12 Joer - vu 14:00 bis 17:00"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass", 
+    "start": "2025-09-02T14:00",
+    "location": "290101/290102",
+    "color": "#FFE599",
+    "description": "fir Kanner vu 9-12 Joer - vu 14:00 bis 17:00"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass",
+    "start": "2025-09-03T14:00",
+    "location": "290101/290102",
+    "color": "#FFE599", 
+    "description": "fir Kanner vu 9-12 + 6-8 Joer - vu 14:00 bis 17:00"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass",
+    "start": "2025-09-04T14:00",
+    "location": "290101/290102",
+    "color": "#FFE599",
+    "description": "fir Kanner vu 9-12 + 6-8 Joer - vu 14:00 bis 17:00"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass",
+    "start": "2025-09-05T14:00", 
+    "location": "290101/290102",
+    "color": "#FFE599",
+    "description": "fir Kanner vu 9-12 + 6-8 Joer - vu 14:00 bis 17:00"
+  },
+  {
+    "title": "KidsDays - Spill a Spaass",
+    "start": "2025-09-06T14:00",
+    "location": "290101/290102", 
+    "color": "#FFE599",
+    "description": "fir Kanner vu 9-12 Joer - moies Schwammen um Colmar-Bierg"
+  },
+  {
+    "title": "HB Dudelange 2 vs Mersch75 (F-PRO)",
+    "start": "2025-09-06T15:00",
+    "location": "290051",
+    "color": "#FF6D01",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Mersch75 vs HC Redange (F-PRO)",
+    "start": "2025-09-14T16:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "HBC Schifflange vs Mersch75 (F-PRO)",
+    "start": "2025-09-21T18:00",
+    "location": "290161",
+    "color": "#B4A7D6",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "HBC Schifflange vs Mersch75 (U13M-P3)",
+    "start": "2025-09-27T15:00",
+    "location": "290161", 
+    "color": "#B4A7D6",
+    "description": "U13M-P3"
+  },
+  {
+    "title": "CHEV Diekirch vs Mersch75 (U15G)",
+    "start": "2025-09-28T14:30",
+    "location": "290041",
+    "color": "#85C1E9",
+    "description": "U15G"
+  },
+  {
+    "title": "Mersch75 vs CHEV Diekirch (F-PRO)",
+    "start": "2025-09-28T16:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Red Boys Differdange 2 vs Mersch75 (F-PRO)",
+    "start": "2025-09-28T15:00",
     "location": "290033",
     "color": "#F1C232",
-    "description": "Sporthalle Differdange"
+    "description": "F-PRO Femmes"
   },
   {
-    "title": "HB Dudelange vs Mersch75 Hommes",
-    "start": "2025-09-20T18:30",
-    "location": "290022",
-    "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
-  },
-  {
-    "title": "Mersch75 Femmes vs Red Boys Differdange",
-    "start": "2025-09-27T19:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Bieles vs HB Käerjeng",
-    "start": "2025-10-04T16:00",
-    "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
-  },
-  {
-    "title": "Mersch75 Hommes vs HB Bieles",
-    "start": "2025-10-11T20:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Dudelange vs Red Boys Differdange",
-    "start": "2025-10-18T17:30",
-    "location": "290022",
-    "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
-  },
-  {
-    "title": "HB Käerjeng vs Mersch75 Femmes",
-    "start": "2025-10-25T15:30",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "Red Boys Differdange vs HB Bieles",
-    "start": "2025-11-01T18:00",
+    "title": "Red Boys Differdange 2 vs Mersch75 (U13M-P3)",
+    "start": "2025-10-04T15:00",
     "location": "290033",
     "color": "#F1C232",
-    "description": "Sporthalle Differdange"
+    "description": "U13M-P3"
   },
   {
-    "title": "Mersch75 Hommes vs HB Käerjeng",
-    "start": "2025-11-08T19:30",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Bieles vs HB Dudelange",
-    "start": "2025-11-15T16:30",
+    "title": "Mersch75 vs HB Museldall (U15G)",
+    "start": "2025-10-05T16:00",
     "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
-  },
-  {
-    "title": "Mersch75 Femmes vs Mersch75 Hommes",
-    "start": "2025-11-22T20:30",
-    "location": "290212",
     "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch - Derby"
+    "description": "U15G"
   },
   {
-    "title": "HB Dudelange vs HB Käerjeng",
-    "start": "2025-11-29T17:00",
-    "location": "290022",
+    "title": "CHEV Diekirch vs Mersch75 (F-C-LN/Coupe)",
+    "start": "2025-10-05T16:30",
+    "location": "290041",
+    "color": "#85C1E9",
+    "description": "F-PRO/Coupe"
+  },
+  {
+    "title": "Mersch75 vs Handball Esch (H-C-LN/Coupe)",
+    "start": "2025-10-05T18:15",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "H-PRO/Coupe"
+  },
+  {
+    "title": "Tournoi U9M",
+    "start": "2025-10-05T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U9M Tournoi 1"
+  },
+  {
+    "title": "Mersch75 vs HC Redange (U15G)",
+    "start": "2025-10-11T15:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "U15G"
+  },
+  {
+    "title": "HC Standard 2 vs Mersch75 (U13M-P3)",
+    "start": "2025-10-11T15:00",
+    "location": "290051",
     "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
+    "description": "U13M-P3"
   },
   {
-    "title": "Red Boys Differdange vs Mersch75 Femmes",
-    "start": "2025-12-06T18:30",
-    "location": "290033",
-    "color": "#F1C232",
-    "description": "Sporthalle Differdange"
-  },
-  {
-    "title": "HB Käerjeng vs HB Bieles",
-    "start": "2025-12-13T19:00",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "Mersch75 Hommes vs HB Dudelange",
-    "start": "2026-01-10T20:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Bieles vs Red Boys Differdange",
-    "start": "2026-01-17T16:00",
+    "title": "Mersch75 vs HB Bieles (F-PRO)",
+    "start": "2025-10-12T16:00",
     "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
-  },
-  {
-    "title": "Mersch75 Femmes vs HB Käerjeng",
-    "start": "2026-01-24T18:00",
-    "location": "290212",
     "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
+    "description": "F-PRO Femmes"
   },
   {
-    "title": "HB Dudelange vs HB Bieles",
-    "start": "2026-01-31T19:30",
-    "location": "290022",
-    "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
-  },
-  {
-    "title": "HB Käerjeng vs Mersch75 Hommes",
-    "start": "2026-02-07T17:30",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "Red Boys Differdange vs HB Dudelange",
-    "start": "2026-02-14T20:00",
-    "location": "290033",
-    "color": "#F1C232",
-    "description": "Sporthalle Differdange"
-  },
-  {
-    "title": "HB Bieles vs Mersch75 Hommes",
-    "start": "2026-02-21T16:30",
+    "title": "Mersch75 vs HC Redange (H-PRO)",
+    "start": "2025-10-12T18:15",
     "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
-  },
-  {
-    "title": "Mersch75 Femmes vs HB Dudelange",
-    "start": "2026-02-28T18:30",
-    "location": "290212",
     "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
+    "description": "H-PRO Hommes"
   },
   {
-    "title": "HB Käerjeng vs Red Boys Differdange",
-    "start": "2026-03-07T19:00",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "HB Bieles vs Mersch75 Femmes",
-    "start": "2026-03-14T17:00",
+    "title": "Tournoi U11M",
+    "start": "2025-10-12T10:00",
     "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
+    "color": "#FFD966",
+    "description": "U11M Tournoi 1"
   },
   {
-    "title": "Mersch75 Hommes vs Red Boys Differdange",
-    "start": "2026-03-21T20:30",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Dudelange vs HB Käerjeng",
-    "start": "2026-03-28T15:00",
-    "location": "290022",
-    "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
-  },
-  {
-    "title": "Mersch75 Femmes vs Mersch75 Hommes",
-    "start": "2026-04-04T18:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch - Rückspiel Derby"
-  },
-  {
-    "title": "Red Boys Differdange vs HB Bieles",
-    "start": "2026-04-11T19:30",
-    "location": "290033",
-    "color": "#F1C232",
-    "description": "Sporthalle Differdange"
-  },
-  {
-    "title": "HB Käerjeng vs HB Dudelange",
-    "start": "2026-04-18T16:00",
-    "location": "290011",
-    "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng"
-  },
-  {
-    "title": "Mersch75 Hommes vs Mersch75 Femmes",
-    "start": "2026-04-25T20:00",
-    "location": "290212",
-    "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
-  },
-  {
-    "title": "HB Bieles vs HB Käerjeng",
-    "start": "2026-05-02T17:30",
+    "title": "Plateaux U7M",
+    "start": "2025-10-12T10:00",
     "location": "290101",
-    "color": "#757171",
-    "description": "Sporthalle Bieles"
+    "color": "#FFD966",
+    "description": "U7M Plateaux"
   },
   {
-    "title": "HB Dudelange vs Red Boys Differdange",
-    "start": "2026-05-09T18:30",
-    "location": "290022",
-    "color": "#FF6D01",
-    "description": "Centre Sportif Dudelange"
+    "title": "CHEV Diekirch vs Mersch75 (F-PRO)",
+    "start": "2025-10-17T19:00",
+    "location": "290041",
+    "color": "#85C1E9",
+    "description": "F-PRO Femmes"
   },
   {
-    "title": "Mersch75 Femmes vs HB Dudelange",
-    "start": "2026-05-16T19:00",
-    "location": "290212",
+    "title": "Chev Diekirch vs Mersch75 (U13M-Coupe)",
+    "start": "2025-10-18T16:15",
+    "location": "290041",
+    "color": "#85C1E9",
+    "description": "U13M-Coupe"
+  },
+  {
+    "title": "HB Leideleng vs Mersch75 (H-PRO)",
+    "start": "2025-10-18T15:00",
+    "location": "290121",
+    "color": "#D5A6BD",
+    "description": "H-PRO Hommes"
+  },
+  {
+    "title": "Mersch75 vs HB Käerjeng 2 (F-PRO)",
+    "start": "2025-10-19T16:00",
+    "location": "290101",
     "color": "#9FC5E8",
-    "description": "Centre Omnisports Mersch"
+    "description": "F-PRO Femmes"
   },
   {
-    "title": "Red Boys Differdange vs Mersch75 Hommes",
-    "start": "2026-05-23T16:30",
-    "location": "290033",
-    "color": "#F1C232",
-    "description": "Sporthalle Differdange"
+    "title": "Tournoi U9M",
+    "start": "2025-10-19T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U9M Tournoi 2"
   },
   {
-    "title": "HB Käerjeng vs HB Bieles",
-    "start": "2026-05-30T15:30",
+    "title": "Mersch75 vs HBC Schifflange (U13M-P3)",
+    "start": "2025-10-24T19:00",
+    "location": "290102",
+    "color": "#9FC5E8",
+    "description": "U13M-P3"
+  },
+  {
+    "title": "Mersch75 vs HBC Schifflange (U15G)",
+    "start": "2025-10-26T14:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "U15G"
+  },
+  {
+    "title": "Mersch75 vs HB Dudelange 2 (F-PRO)",
+    "start": "2025-10-26T16:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Mersch75 vs HBC Schifflange (H-PRO)",
+    "start": "2025-10-26T18:15",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "H-PRO Hommes"
+  },
+  {
+    "title": "Tournoi U11M",
+    "start": "2025-10-26T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U11M Tournoi 2"
+  },
+  {
+    "title": "Plateaux U7M",
+    "start": "2025-10-26T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U7M Plateaux"
+  },
+  {
+    "title": "HC Redange vs Mersch75 (F-PRO)",
+    "start": "2025-11-08T16:00",
+    "location": "290081",
+    "color": "#F4CCCC",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Mersch75 vs Red Boys Differdange 2 (U13M-P3)",
+    "start": "2025-11-15T10:30",
+    "location": "290102",
+    "color": "#9FC5E8",
+    "description": "U13M-P3"
+  },
+  {
+    "title": "HB Pétange vs Mersch75 (H-PRO)",
+    "start": "2025-11-15T15:00",
+    "location": "290071",
+    "color": "#B6D7A8",
+    "description": "H-PRO Hommes"
+  },
+  {
+    "title": "Käerjeng/Esch vs Mersch75 (U15G)",
+    "start": "2025-11-15T15:00",
     "location": "290011",
     "color": "#D0CECE",
-    "description": "Am Dribbel Käerjeng - Saisonende"
-  }
-]
+    "description": "U15G"
+  },
+  {
+    "title": "Mersch75 vs HBC Schifflange (F-PRO)",
+    "start": "2025-11-16T16:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Tournoi U11M",
+    "start": "2025-11-16T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U11M Tournoi 3"
+  },
+  {
+    "title": "Plateaux U7M",
+    "start": "2025-11-16T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U7M Plateaux"
+  },
+  {
+    "title": "Mersch75 vs HC Standard 2 (U13M-P3)",
+    "start": "2025-11-22T10:30",
+    "location": "290102",
+    "color": "#9FC5E8",
+    "description": "U13M-P3"
+  },
+  {
+    "title": "Mersch75 vs Red Boys Differdange (U15G)",
+    "start": "2025-11-23T16:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "U15G"
+  },
+  {
+    "title": "Mersch75 vs HB Museldall (H-PRO)",
+    "start": "2025-11-23T18:15",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "description": "H-PRO Hommes"
+  },
+  {
+    "title": "Tournoi-FLH U9M",
+    "start": "2025-11-23T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U9M Tournoi-FLH"
+  },
+  {
+    "title": "HB Bieles vs Mersch75 (F-PRO)",
+    "start": "2025-11-29T18:00",
+    "location": "290032",
+    "color": "#757171",
+    "description": "F-PRO Femmes"
+  },
+  {
+    "title": "Tournoi U11M",
+    "start": "2025-11-30T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U11M Tournoi 4"
+  },
+  {
+    "title": "Plateaux U7M",
+    "start": "2025-11-30T10:00",
+    "location": "290101",
+    "color": "#FFD966",
+    "description": "U7M Plateaux"
+  },
+  {
+    "title": "50 JOER M75 - PUBLICATIOUN",
+    "start": "2025-12-01T10:00",
+    "location": "N/A",
+    "color": "#E06666",
+    "description": "BROSCHüR 50JOER - Publikation"
+  },
+  {
+    "title": "HC Redange vs Mersch75 (H-PRO)",
+    "start": "2025-12-06T15:00",
+    "location": "290081",
+    "color": "#F4CCCC",
+    "description": "H-PRO Hommes"
+  },
+  {
+    "title": "Mersch75 vs HC Standard 2 (U15G)",
+    "start": "2025-12-07T14:00",
+    "location": "290101",
+    "color": "#9FC5E8",
+    "
