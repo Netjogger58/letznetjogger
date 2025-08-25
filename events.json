@@ -1,54 +1,261 @@
-document.addEventListener('DOMContentLoaded', function () {
-  var calendarEl = document.getElementById('calendar');
-
-  var calendar = new FullCalendar.Calendar(calendarEl, {
-    initialView: 'listYear',
-    headerToolbar: {
-      left: 'prev,next today',
-      center: 'title',
-      right: 'listYear,listMonth,listWeek'
-    },
-    locale: 'de',
-    firstDay: 1,
-    events: 'events.json',
-    validRange: {
-      start: '2025-08-01',
-      end: '2026-07-31'
-    },
-    listDayFormat: { day: '2-digit', month: '2-digit', year: '2-digit' },
-    eventTimeFormat: { hour: '2-digit', minute: '2-digit', hour12: false },
-
-    eventClick: function (info) {
-      if (info.event.extendedProps.link) {
-        window.open(info.event.extendedProps.link, '_blank');
-      } else {
-        alert(
-          info.event.title + '\n' +
-          (info.event.extendedProps.description || '') + '\n' +
-          'Hallen-Code: ' + (info.event.extendedProps.location || 'keine Angabe') + '\n' +
-          'Beginn: ' + info.event.start.toLocaleString()
-        );
-      }
-    },
-
-    eventDidMount: function (info) {
-      let tooltipContent = info.event.title;
-      if (info.event.extendedProps.description) {
-        tooltipContent += '\n' + info.event.extendedProps.description;
-      }
-      if (info.event.extendedProps.image) {
-        tooltipContent += '\n\n(Bild vorhanden – Klick für Spielbericht)';
-      }
-      if (!('ontouchstart' in window)) {
-        new bootstrap.Tooltip(info.el, {
-          title: tooltipContent,
-          placement: 'top',
-          trigger: 'hover',
-          container: 'body'
-        });
-      }
-    }
-  });
-
-  calendar.render();
-});
+[
+  {
+    "title": "HB Käerjeng vs HB Dudelange",
+    "start": "2025-08-30T15:00",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "Mersch75 Femmes vs HB Bieles",
+    "start": "2025-09-06T16:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "Red Boys Differdange vs HB Käerjeng",
+    "start": "2025-09-13T17:00",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "HB Dudelange vs Mersch75 Hommes",
+    "start": "2025-09-20T18:30",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "Mersch75 Femmes vs Red Boys Differdange",
+    "start": "2025-09-27T19:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Bieles vs HB Käerjeng",
+    "start": "2025-10-04T16:00",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "Mersch75 Hommes vs HB Bieles",
+    "start": "2025-10-11T20:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Dudelange vs Red Boys Differdange",
+    "start": "2025-10-18T17:30",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "HB Käerjeng vs Mersch75 Femmes",
+    "start": "2025-10-25T15:30",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "Red Boys Differdange vs HB Bieles",
+    "start": "2025-11-01T18:00",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "Mersch75 Hommes vs HB Käerjeng",
+    "start": "2025-11-08T19:30",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Bieles vs HB Dudelange",
+    "start": "2025-11-15T16:30",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "Mersch75 Femmes vs Mersch75 Hommes",
+    "start": "2025-11-22T20:30",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch - Derby"
+  },
+  {
+    "title": "HB Dudelange vs HB Käerjeng",
+    "start": "2025-11-29T17:00",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "Red Boys Differdange vs Mersch75 Femmes",
+    "start": "2025-12-06T18:30",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "HB Käerjeng vs HB Bieles",
+    "start": "2025-12-13T19:00",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "Mersch75 Hommes vs HB Dudelange",
+    "start": "2026-01-10T20:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Bieles vs Red Boys Differdange",
+    "start": "2026-01-17T16:00",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "Mersch75 Femmes vs HB Käerjeng",
+    "start": "2026-01-24T18:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Dudelange vs HB Bieles",
+    "start": "2026-01-31T19:30",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "HB Käerjeng vs Mersch75 Hommes",
+    "start": "2026-02-07T17:30",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "Red Boys Differdange vs HB Dudelange",
+    "start": "2026-02-14T20:00",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "HB Bieles vs Mersch75 Hommes",
+    "start": "2026-02-21T16:30",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "Mersch75 Femmes vs HB Dudelange",
+    "start": "2026-02-28T18:30",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Käerjeng vs Red Boys Differdange",
+    "start": "2026-03-07T19:00",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "HB Bieles vs Mersch75 Femmes",
+    "start": "2026-03-14T17:00",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "Mersch75 Hommes vs Red Boys Differdange",
+    "start": "2026-03-21T20:30",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Dudelange vs HB Käerjeng",
+    "start": "2026-03-28T15:00",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "Mersch75 Femmes vs Mersch75 Hommes",
+    "start": "2026-04-04T18:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch - Rückspiel Derby"
+  },
+  {
+    "title": "Red Boys Differdange vs HB Bieles",
+    "start": "2026-04-11T19:30",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "HB Käerjeng vs HB Dudelange",
+    "start": "2026-04-18T16:00",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng"
+  },
+  {
+    "title": "Mersch75 Hommes vs Mersch75 Femmes",
+    "start": "2026-04-25T20:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "HB Bieles vs HB Käerjeng",
+    "start": "2026-05-02T17:30",
+    "location": "290101",
+    "color": "#757171",
+    "description": "Sporthalle Bieles"
+  },
+  {
+    "title": "HB Dudelange vs Red Boys Differdange",
+    "start": "2026-05-09T18:30",
+    "location": "290022",
+    "color": "#FF6D01",
+    "description": "Centre Sportif Dudelange"
+  },
+  {
+    "title": "Mersch75 Femmes vs HB Dudelange",
+    "start": "2026-05-16T19:00",
+    "location": "290212",
+    "color": "#9FC5E8",
+    "description": "Centre Omnisports Mersch"
+  },
+  {
+    "title": "Red Boys Differdange vs Mersch75 Hommes",
+    "start": "2026-05-23T16:30",
+    "location": "290033",
+    "color": "#F1C232",
+    "description": "Sporthalle Differdange"
+  },
+  {
+    "title": "HB Käerjeng vs HB Bieles",
+    "start": "2026-05-30T15:30",
+    "location": "290011",
+    "color": "#D0CECE",
+    "description": "Am Dribbel Käerjeng - Saisonende"
+  }
+]
